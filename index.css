@@ -106,6 +106,9 @@
   width: 50%;
   background-image: url("myimage.jpeg");
   background-size: cover;
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px skyblue;     
+
 }
 
 .abouttext {
@@ -179,14 +182,14 @@
 .first {
   border: 10px solid skyblue;
   border-radius: 10px;
-  height: 90%;
+  height: 100%;
   width: 80%;
   margin-top: 30px;
   position: absolute;
 }
 .second {
   position: absolute;
-  height: 90%;
+  height: 100%;
 }
 .second img {
   height: 100%;
@@ -340,11 +343,120 @@
   }
   .sec1{
 
-    height: 20%;
-    border: 1px solid red;
+    height: 16%;
     margin-left: 150px;
     margin-top: 20px;
     display: flex;
+    justify-content: space-around;
+    gap:70px;
     margin-right: 80px; 
 
+}
+.col1{
+    height: 100%;
+    width: 40%;
+    box-shadow: 3px 3px 10px skyblue;     
+
+}
+.col1 img{
+    height: 40px;
+    width: 50px;
+    margin-right: 20px;
+}
+.col1head{
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: white;
+    margin: auto;
+    
+}
+.col1 p{
+    margin-top: 0px;
+    color: B6C4B6;
+    text-align: center;
+}
+.col2{
+    height: 100%;
+    width: 40%;
+    box-shadow: 3px 3px 10px skyblue;     
+}
+
+.col2 img{
+    height: 40px;
+    width: 50px;
+    margin-right: 20px;
+}
+.col2head{
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    color: white;
+    margin: auto;
+    
+}
+.col2 p{
+    color: B6C4B6;
+    text-align: center;
+    margin-top: 0px;
+}
+.col1button1 {
+    width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.col1button1 button{
+    font-size: 1.0rem;
+    padding: 8px;
+    width: 30%;
+    border: 0px;
+    border-radius: 10px;
+    background: rgb(0, 212, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 212, 255, 1) 23%,
+      rgba(9, 9, 121, 1) 100%,
+      rgba(2, 0, 36, 1) 100%
+    );
+    color: white;
+}
+.col1button1 button:hover{
+    background: rgb(9, 9, 121);
+    background: linear-gradient(
+      90deg,
+      rgba(9, 9, 121, 1) 0%,
+      rgba(0, 212, 255, 1) 61%
+    );
+    cursor: pointer;
+}
+.col2button2 {
+    width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+.col2button2 button{
+    font-size: 0.9rem;
+    padding: 8px;
+    width: 30%;
+    border: 0px;
+    border-radius: 10px;
+    background: rgb(0, 212, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 212, 255, 1) 23%,
+      rgba(9, 9, 121, 1) 100%,
+      rgba(2, 0, 36, 1) 100%
+    );
+    color: white;
+}
+.col2button2 button:hover{
+    background: rgb(9, 9, 121);
+    background: linear-gradient(
+      90deg,
+      rgba(9, 9, 121, 1) 0%,
+      rgba(0, 212, 255, 1) 61%
+    );
+    cursor: pointer;
 }
