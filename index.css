@@ -1,0 +1,326 @@
+.main {
+  height: 400vh;
+  width: 100%;
+  background-color: 0F2167;
+}
+
+.navbar {
+  display: flex;
+  height: 60px;
+  justify-content: space-between;
+}
+.logo img {
+  width: 65px;
+  height: 60px;
+  margin-left: 150px;
+}
+.navcomp {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  gap: 80px;
+  align-items: center;
+}
+.navcomp a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+}
+.navcomp a:hover {
+  color: 4CB9E7;
+}
+.a5 {
+  background: rgb(0, 212, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 23%,
+    rgba(9, 9, 121, 1) 100%,
+    rgba(2, 0, 36, 1) 100%
+  );
+  padding: 10px;
+  width: 90px;
+  text-align: center;
+  border-radius: 10px;
+}
+.a5 a {
+  color: white;
+}
+.a5 a:hover {
+  color: white;
+}
+.a5:hover {
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 61%
+  );
+  padding: 10px;
+  width: 90px;
+}
+.head {
+  margin: 130px 150px;
+}
+.head h3 {
+  font-size: 2.3rem;
+  margin-bottom: 20px;
+  color: B6C4B6;
+}
+.head h1 {
+  font-size: 5.9rem;
+  margin: auto;
+  color: white;
+}
+.head button {
+  margin: 30px 0px;
+  padding: 15px;
+  width: 25%;
+  border: 0px;
+  border-radius: 10px;
+  background: rgb(0, 212, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 23%,
+    rgba(9, 9, 121, 1) 100%,
+    rgba(2, 0, 36, 1) 100%
+  );
+  color: white;
+}
+.head button:hover {
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 61%
+  );
+  cursor: pointer;
+}
+.about {
+  height: 20%;
+  margin-left: 150px;
+  display: flex;
+  margin-right: 80px;
+}
+.image {
+  height:90%;
+  width: 50%;
+  background-image: url("myimage.jpeg");
+  background-size: contain;
+  background-size: cover;
+}
+
+.abouttext {
+  height: 100%;
+  width: 80%;
+}
+.abouttext h3 {
+  font-size: 2.4rem;
+  color: white;
+  text-decoration: underline;
+  text-align: center;
+}
+.abouttext p {
+  margin-left: 20px;
+  color: B6C4B6;
+  font-size: 1.5rem;
+}
+.button2 {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.button2 button {
+  margin: 20px 0px;
+  padding: 15px;
+  width: 25%;
+  border: 0px;
+  border-radius: 10px;
+  background: rgb(0, 212, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 23%,
+    rgba(9, 9, 121, 1) 100%,
+    rgba(2, 0, 36, 1) 100%
+  );
+  color: white;
+}
+.button2 button:hover {
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 61%
+  );
+  cursor: pointer;
+}
+.project {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  text-decoration: underline;
+  color: white;
+  color: B6C4B6;
+}
+.projectcont {
+  height: 15%;
+  margin-left: 150px;
+  margin-top: 20px;
+  display: flex;
+  margin-right: 80px;
+  gap: 20px;
+}
+.proimage1 {
+  height: 80%;
+  width: 60%;
+  display: flex;
+
+  position: relative;
+}
+.first {
+  border: 10px solid skyblue;
+  border-radius: 10px;
+  height: 90%;
+  width: 80%;
+  margin-top: 30px;
+  position: absolute;
+}
+.second {
+  position: absolute;
+  height: 90%;
+}
+.second img {
+  height: 100%;
+  width: 90%;
+  float: right;
+  border-radius: 10px;
+}
+
+.procont1 {
+  height: 100%;
+  width: 80%;
+}
+
+.procont1 h2 {
+  color: rgb(0, 212, 255);
+  font-size: 2rem;
+}
+.procont1 h3 {
+  color: white;
+  font-size: 2rem;
+}
+.procont1 p {
+  color: B6C4B6;
+  margin: auto;
+}
+.viewbutton {
+  width: 100%;
+
+  margin-top: 40px;
+}
+.viewbutton button {
+  font-size: 1.3rem;
+  padding: 10px;
+  width: 20%;
+  border: 0px;
+  border-radius: 10px;
+  background: rgb(0, 212, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 212, 255, 1) 23%,
+    rgba(9, 9, 121, 1) 100%,
+    rgba(2, 0, 36, 1) 100%
+  );
+  color: white;
+}
+.viewbutton button:hover {
+  background: rgb(9, 9, 121);
+  background: linear-gradient(
+    90deg,
+    rgba(9, 9, 121, 1) 0%,
+    rgba(0, 212, 255, 1) 61%
+  );
+  cursor: pointer;
+}
+.projectcont2{
+    height: 15%;
+    margin-left: 150px;
+    margin-top: 20px;
+    display: flex;
+    margin-right: 80px;
+    gap: 50px;
+
+}
+.procont2{
+    height: 100%;
+    width: 80%;
+    
+}
+.procont2 h2{
+    color: rgb(0, 212, 255);
+    font-size: 2rem;
+}
+.procont2 h3{
+    color: white;
+    font-size: 2rem;
+
+}
+.procont2 p {
+    color: B6C4B6;
+    margin: auto;
+  }
+
+.proimage2 {
+    height: 90%;
+    width: 60%;
+    display: flex;
+
+    position: relative;
+  }
+  .first2 {
+    border: 10px solid skyblue;
+    border-radius: 10px;
+    height: 90%;
+    width: 90%;
+    margin-top: 30px;
+    position: absolute;
+    margin-left: 30px;
+  }
+  .second2 {
+    position: absolute;
+    height: 90%;
+  }
+  .second2 img {
+    height: 100%;
+    width: 90%;
+    float: left;
+    border-radius: 10px;
+  }
+  .viewbutton2 {
+    width: 100%;
+  
+    margin-top: 40px;
+  }
+  .viewbutton2 button {
+    font-size: 1.3rem;
+    padding: 10px;
+    width: 20%;
+    border: 0px;
+    border-radius: 10px;
+    background: rgb(0, 212, 255);
+    background: linear-gradient(
+      90deg,
+      rgba(0, 212, 255, 1) 23%,
+      rgba(9, 9, 121, 1) 100%,
+      rgba(2, 0, 36, 1) 100%
+    );
+    color: white;
+  }
+  .viewbutton2 button:hover {
+    background: rgb(9, 9, 121);
+    background: linear-gradient(
+      90deg,
+      rgba(9, 9, 121, 1) 0%,
+      rgba(0, 212, 255, 1) 61%
+    );
+    cursor: pointer;
+  }
