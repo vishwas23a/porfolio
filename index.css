@@ -460,3 +460,190 @@
     );
     cursor: pointer;
 }
+.exp{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    color: B6C4B6;
+    font-size: 1.4rem;
+    margin-top: 10%;
+}
+
+
+.exp1{
+    margin-top: 40px;
+    height: 9%;
+    margin-left: 150px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+.icon1{
+    height: 100%;
+    width: 12%;
+}
+.icon1 img{
+    height: 60%;
+    width: 100%;
+}
+.icon1 p{
+    text-align: center;
+    color: white;
+}
+.icon2{
+    height: 100%;
+    width: 12%;
+}
+.icon2 img{
+    height: 60%;
+    width: 100%;
+}
+.icon2 p{
+    text-align: center;
+    color: white;
+}
+.icon3{
+
+    height: 100%;
+    width: 12%;
+}
+.icon3 img{
+    height: 60%;
+    width: 100%;
+}
+.icon3 p{
+    text-align: center;
+    color: white;
+}
+.icon4{
+    height: 100%;
+    width: 12%;
+}
+.icon4 img{
+    height: 60%;
+    width: 100%;
+}
+.icon4 p{
+    text-align: center;
+    color: white;
+}
+.exp2{
+    margin-top: 50px;
+    height: 9%;
+    margin-left: 150px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+.icon5{
+    height: 100%;
+    width: 12%;
+}
+.icon5 img{
+    height: 60%;
+    width: 100%;
+}
+.icon5 p{
+    text-align: center;
+    color: white;
+}
+.icon6{
+
+    height: 100%;
+    width: 12%;
+}
+.icon6 img{
+    height: 60%;
+    width: 100%;
+}
+.icon6 p{
+    text-align: center;
+    color: white;
+}
+.icon7{
+    height: 100%;
+    width: 12%;
+}
+.icon7 img{
+    height: 60%;
+    width: 100%;
+}
+.icon7 p{
+    text-align: center;
+    color: white;
+}
+.contactbox{
+    margin-top: 10%;
+    height: 30%;
+    border: 1px solid red;
+    width: 100%;
+    background: rgb(7,45,145);
+    background: rgb(7,45,145);
+    background: rgb(7,45,145);
+    background: linear-gradient(90deg, rgba(7,45,145,1) 0%, rgba(26,245,238,1) 100%);
+    border-radius: 100px 100px 0px 0px; 
+    
+}
+.conhead{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 1.5rem ;
+}
+.contbox{
+    display: flex;
+    justify-content: space-around;
+   
+    height: 90%;
+    
+}
+.details{
+height: 80%;
+width: 40%;
+border:  1px solid red;
+color: white;
+}
+.forms{
+    height: 80%;
+    width: 40%;
+    border: 1px solid red;
+}
+
+.details h2{
+    font-size: 1.7rem;
+    margin-top: 10%;
+}
+.details p{
+    margin-top: 5px;
+    color: B6C4B6;
+    font-size: 1.0rem;
+}
+.phone{
+    display: flex;
+    gap: 15px;
+
+}
+.phoneimg img{
+    height: 20px;
+    width: 20px;
+}
+.email{
+    display: flex;
+    gap: 15px;
+
+}
+.emailimg img{
+    height: 20px;
+    width: 20px;
+}
+.address{
+    display: flex;
+    gap: 15px;
+
+}
+.addressimg img{
+    height: 20px;
+    width: 20px;
+}
