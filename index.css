@@ -275,7 +275,7 @@
 .projectcont2{
     height: 15%;
     margin-left: 80px;
-    margin-top: 10%;
+    margin-top: 9%;
     display: flex;
     margin-right: 80px;
     gap: 50px;
@@ -301,7 +301,7 @@
 }
 .procont2 p {
     color: B6C4B6;
-    margin: auto;
+    margin-top: 0px;
   }
 
 .proimage2 {
@@ -368,7 +368,7 @@
     flex-direction: column;
 }
   .servicehead{
-    margin-top: 4%;
+    margin-top: 5%;
     display: flex;
     justify-content: center;
     font-family: 'Afacad', sans-serif;
@@ -631,7 +631,7 @@
 }
 .contactbox{
     margin-top: 10%;
-    height: 40%;
+    height: 43%;
     width: 100%;
     background: rgb(7,45,145);
     background: rgb(7,45,145);
@@ -643,8 +643,7 @@
 .conhead{
     display: flex;
     justify-content: center;
-    color: B6C4B6;
-
+color: white;
     font-size: 1.6rem ;
     font-family: 'Afacad', sans-serif;
     
