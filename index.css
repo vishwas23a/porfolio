@@ -12,7 +12,7 @@
 .logo img {
   width: 65px;
   height: 60px;
-  margin-left: 150px;
+  margin-left: 80px;
 }
 .navcomp {
   display: flex;
@@ -59,7 +59,7 @@
   width: 90px;
 }
 .head {
-  margin: 130px 150px;
+  margin: 130px 80px;
 }
 .head h3 {
   font-size: 2.3rem;
@@ -97,7 +97,7 @@
 }
 .about {
   height: 20%;
-  margin-left: 150px;
+  margin-left: 80px;
   display: flex;
   margin-right: 80px;
 }
@@ -165,7 +165,7 @@
 }
 .projectcont {
   height: 15%;
-  margin-left: 150px;
+  margin-left: 80px;
   margin-top: 20px;
   display: flex;
   margin-right: 80px;
@@ -246,7 +246,7 @@
 }
 .projectcont2{
     height: 15%;
-    margin-left: 150px;
+    margin-left: 80px;
     margin-top: 10%;
     display: flex;
     margin-right: 80px;
@@ -343,8 +343,9 @@
   }
   .sec1{
 
-    height: 16%;
-    margin-left: 150px;
+    height: 17%;
+    padding: 5px;
+    margin-left: 80px;
     margin-top: 20px;
     display: flex;
     justify-content: space-around;
@@ -473,7 +474,7 @@
 .exp1{
     margin-top: 40px;
     height: 9%;
-    margin-left: 150px;
+    margin-left: 80px;
     margin-right: 80px;
     display: flex;
     justify-content: space-evenly;
@@ -530,8 +531,8 @@
 }
 .exp2{
     margin-top: 50px;
-    height: 9%;
-    margin-left: 150px;
+    height: 11%;
+    margin-left: 80px;
     margin-right: 80px;
     display: flex;
     justify-content: space-evenly;
@@ -577,7 +578,6 @@
 .contactbox{
     margin-top: 10%;
     height: 30%;
-    border: 1px solid red;
     width: 100%;
     background: rgb(7,45,145);
     background: rgb(7,45,145);
@@ -589,26 +589,26 @@
 .conhead{
     display: flex;
     justify-content: center;
-    color: white;
+    color: B6C4B6;
+
     font-size: 1.5rem ;
+    text-decoration: underline;
+    
 }
 .contbox{
     display: flex;
     justify-content: space-around;
-   
-    height: 90%;
+    height: 80%;
     
 }
 .details{
 height: 80%;
 width: 40%;
-border:  1px solid red;
 color: white;
 }
 .forms{
     height: 80%;
     width: 40%;
-    border: 1px solid red;
 }
 
 .details h2{
@@ -623,11 +623,12 @@ color: white;
 .phone{
     display: flex;
     gap: 15px;
+    margin-top: 70px;
 
 }
 .phoneimg img{
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
 }
 .email{
     display: flex;
@@ -635,8 +636,8 @@ color: white;
 
 }
 .emailimg img{
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
 }
 .address{
     display: flex;
@@ -644,6 +645,74 @@ color: white;
 
 }
 .addressimg img{
-    height: 20px;
-    width: 20px;
+    height: 25px;
+    width: 25px;
+}
+.forms{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.formbox{
+  height: 90%;
+  width: 70%;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  box-shadow: 0px 0px 6px 1px rgb(63, 187, 236);
+}
+.formbox input{
+  padding: 13px;
+  border-radius: 10px;
+  border: 0px solid ;
+  background-color: rgb(68, 63, 63);
+  color: white;
+  width: 90%;
+}
+.name1{
+  margin-top: 40px;
+
+}
+.name2{
+  margin-top: 10px;
+}
+.name3{
+  margin-top: 10px;
+  height: 25%;
+}
+.formbutton{
+  display: flex;
+  justify-content: start;
+  width: 100%;
+}
+.formbox button{
+  margin-top: 10px;
+  padding: 12px;
+  width: 30%;
+  margin-left: 20px;
+  border-radius: 10px;
+  border: 0px solid;
+  color: white;
+  background-color:rgb(68, 63, 63);
+}
+.formbox button:hover{
+  background-color: rgb(115, 112, 112);
+  color: white;
+  cursor: pointer;
+}
+.footer{
+
+  margin-top: 7px;
+height: 50px;
+  background-color: rgb(76, 75, 74);
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+.footer img{
+  height: 40px;
+  width: 40px;
 }
