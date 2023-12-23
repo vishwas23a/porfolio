@@ -1,3 +1,6 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Afacad&display=swap');
+
 .main {
   height: 350vh;
   width: 100%;
@@ -26,6 +29,9 @@
 .navcomp a {
   color: white;
   list-style: none;
+  font-size: 1.2rem;
+  font-family: 'Afacad', sans-serif;
+
   text-decoration: none;
 }
 .navcomp a:hover {
@@ -46,9 +52,11 @@
 }
 .a5 a {
   color: white;
+  font-size: 1.0rem;
 }
 .a5 a:hover {
   color: white;
+  font-size: 1.0rem;
 }
 .a5:hover {
   background: rgb(9, 9, 121);
@@ -78,8 +86,11 @@
   padding: 15px;
   width: 25%;
   border: 0px;
+  font-size: 1.3rem;
   border-radius: 10px;
   background: rgb(0, 212, 255);
+  font-family: 'Afacad', sans-serif;
+
   background: linear-gradient(
     90deg,
     rgba(0, 212, 255, 1) 23%,
@@ -116,12 +127,15 @@
 .abouttext {
   height: 10%;
   width: 80%;
+
 }
 .abouttext h3 {
   font-size: 2.4rem;
-  color: white;
-  text-decoration: underline;
+  color: B6C4B6;
+
   text-align: center;
+  font-family: 'Afacad', sans-serif;
+
 }
 .abouttext p {
   margin-left: 20px;
@@ -138,7 +152,10 @@
   padding: 15px;
   width: 25%;
   border: 0px;
+  font-size: 1.2rem;
   border-radius: 10px;
+  font-family: 'Afacad', sans-serif;
+
   background: rgb(0, 212, 255);
   background: linear-gradient(
     90deg,
@@ -161,8 +178,11 @@
   display: flex;
   justify-content: center;
   margin-top: 80px;
-  text-decoration: underline;
+  font-size: 1.4rem;
+
   color: white;
+  font-family: 'Afacad', sans-serif;
+
   color: B6C4B6;
 }
 .projectcont {
@@ -208,10 +228,14 @@
 .procont1 h2 {
   color: rgb(0, 212, 255);
   font-size: 2rem;
+  font-family: 'Afacad', sans-serif;
+
 }
 .procont1 h3 {
   color: white;
   font-size: 2rem;
+  font-family: 'Afacad', sans-serif;
+
 }
 .procont1 p {
   color: B6C4B6;
@@ -229,6 +253,8 @@
   border: 0px;
   border-radius: 10px;
   background: rgb(0, 212, 255);
+  font-family: 'Afacad', sans-serif;
+
   background: linear-gradient(
     90deg,
     rgba(0, 212, 255, 1) 23%,
@@ -263,10 +289,14 @@
 .procont2 h2{
     color: rgb(0, 212, 255);
     font-size: 2rem;
+    font-family: 'Afacad', sans-serif;
+
 }
 .procont2 h3{
     color: white;
     font-size: 2rem;
+    font-family: 'Afacad', sans-serif;
+
 
 }
 .procont2 p {
@@ -312,6 +342,8 @@
     border: 0px;
     border-radius: 10px;
     background: rgb(0, 212, 255);
+    font-family: 'Afacad', sans-serif;
+
     background: linear-gradient(
       90deg,
       rgba(0, 212, 255, 1) 23%,
@@ -331,24 +363,26 @@
   }
   .service{
     background-color: 0F2167;
-    width: 100%;
     height: 300vh;
-
+    display: flex;
+    flex-direction: column;
 }
   .servicehead{
-
+    margin-top: 4%;
     display: flex;
     justify-content: center;
-    text-decoration: underline;
+    font-family: 'Afacad', sans-serif;
+
     color: B6C4B6;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
+    
   }
   .sec1{
 
-    height: 17%;
+    height: 22%;
+    
     padding: 5px;
     margin-left: 80px;
-    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     gap:70px;
@@ -359,6 +393,8 @@
     height: 100%;
     width: 40%;
     box-shadow: 3px 3px 10px skyblue;     
+    border-radius: 10px;
+
 
 }
 .col1 img{
@@ -372,6 +408,8 @@
     font-size: 1.8rem;
     color: white;
     margin: auto;
+    font-family: 'Afacad', sans-serif;
+
     
 }
 .col1 p{
@@ -382,7 +420,9 @@
 .col2{
     height: 100%;
     width: 40%;
-    box-shadow: 3px 3px 10px skyblue;     
+    box-shadow: 3px 3px 10px skyblue;   
+    border-radius: 10px;
+  
 }
 
 .col2 img{
@@ -396,6 +436,8 @@
     font-size: 1.8rem;
     color: white;
     margin: auto;
+    font-family: 'Afacad', sans-serif;
+
     
 }
 .col2 p{
@@ -413,6 +455,8 @@
     padding: 8px;
     width: 30%;
     border: 0px;
+    font-family: 'Afacad', sans-serif;
+
     border-radius: 10px;
     background: rgb(0, 212, 255);
     background: linear-gradient(
@@ -438,6 +482,7 @@
   justify-content: center;
   gap: 30px;
   margin-top: 50px;
+
 }
 .col2button2 button{
     font-size: 0.9rem;
@@ -446,6 +491,8 @@
     border: 0px;
     border-radius: 10px;
     background: rgb(0, 212, 255);
+    font-family: 'Afacad', sans-serif;
+
     background: linear-gradient(
       90deg,
       rgba(0, 212, 255, 1) 23%,
@@ -466,10 +513,11 @@
 .exp{
     display: flex;
     justify-content: center;
-    text-decoration: underline;
     color: B6C4B6;
-    font-size: 1.4rem;
-    margin-top: 10%;
+    font-size: 1.6rem;
+    margin-top: 6%;
+    font-family: 'Afacad', sans-serif;
+
 }
 
 
@@ -481,6 +529,8 @@
     display: flex;
     justify-content: space-evenly;
     font-size: 1.2rem;
+    font-family: 'Afacad', sans-serif;
+
 }
 .icon1{
     height: 100%;
@@ -539,6 +589,8 @@
     display: flex;
     justify-content: space-evenly;
     font-size: 1.2rem;
+    font-family: 'Afacad', sans-serif;
+
 }
 .icon5{
     height: 100%;
@@ -579,7 +631,7 @@
 }
 .contactbox{
     margin-top: 10%;
-    height: 30%;
+    height: 40%;
     width: 100%;
     background: rgb(7,45,145);
     background: rgb(7,45,145);
@@ -593,8 +645,8 @@
     justify-content: center;
     color: B6C4B6;
 
-    font-size: 1.5rem ;
-    text-decoration: underline;
+    font-size: 1.6rem ;
+    font-family: 'Afacad', sans-serif;
     
 }
 .contbox{
@@ -607,6 +659,8 @@
 height: 80%;
 width: 40%;
 color: white;
+font-family: 'Afacad', sans-serif;
+
 }
 .forms{
     height: 80%;
@@ -704,15 +758,13 @@ color: white;
   cursor: pointer;
 }
 .footer{
-
-  margin-top: 7px;
-height: 50px;
+ 
+padding: 10px;
   background-color: rgb(76, 75, 74);
   color: white;
   display: flex;
   justify-content: center;
   gap: 60px;
-  align-items: center;
 }
 .footer img{
   height: 40px;
