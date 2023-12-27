@@ -21,8 +21,8 @@
 .circles{
     position: absolute;
     top:0;
-    left: 25%;
-    width: 100%;
+    left: 30%;
+    width: 70%;
     height: 110%;
     overflow: hidden;
     
@@ -36,10 +36,8 @@
     height: 20px;
     background: rgba(255, 255, 255, 0.2);
     animation: animate 20s linear infinite;
-    bottom: -150px;
-    
+    bottom: -150px;   
 }
-
 .circles li:nth-child(1){
     left: 25%;
     width: 80px;
@@ -194,6 +192,7 @@ z-index: +1;
     rgba(0, 212, 255, 1) 61%
   );
   padding: 10px;
+  cursor: pointer;
   width: 90px;
 }
 .head {
@@ -244,13 +243,15 @@ z-index: +1;
   margin-left: 80px;
   display: flex;
   margin-right: 80px;
+  gap: 30px;
   
 }
 .image {
-  height:100%;
-  width: 50%;
+  height:90%;
+  width: 45%;
   background-image: url("myimage.jpeg");
-  background-size: cover;
+  background-size: 450px 700px;
+  background-repeat: no-repeat;
   border-radius: 15px;
   box-shadow: 3px 3px 10px skyblue;     
 
@@ -277,6 +278,7 @@ z-index: +1;
 .button2 {
   display: flex;
   justify-content: center;
+  margin-top: 80px;
   gap: 40px;
 }
 .button2 button {
