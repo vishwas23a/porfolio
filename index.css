@@ -248,7 +248,7 @@ z-index: +1;
 }
 .image {
   height:90%;
-  width: 45%;
+  width: 50%;
   background-image: url("myimage.jpeg");
   background-size: 450px 700px;
   background-repeat: no-repeat;
