@@ -1,5 +1,5 @@
 function fun1(){
-    url=("myresume.pdf")
+   let  url=("myresume.pdf")
     window.open(url, "_blank")
 }
 
